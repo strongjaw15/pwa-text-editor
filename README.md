@@ -1,43 +1,30 @@
-# <Your-Project-Title>
+# PWA Text Editor
 
 ## Badges
 
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-Like this:
-
-https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>
-
-![](https://img.shields.io/badge/License-MIT-green)
+![](https://img.shields.io/badge/License-MIT-green) ![](https://img.shields.io/badge/PWA-YES-blue)
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+This application is a simple text editor. However, it runs as a progressive web app, so that once it loads it can function without an internet connection, and can even be installed as an app on the local machine, resulting in the browser not being needed to use it. I wanted to build a simple PWA! I used the starter code from my class for this project. A large number of global internet users are still using unstable 3G internet connections, so PWAs can play an important role in overcoming those connection issues. I learned about setting up a PWA using webPack while doing this project.
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+Hit the install button!
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+Once the page loads, the user can enter text, leave the window, and come back and the text will still be there. Text is stll lost when the page is refreshed. The text persists from the browser to the installed app, though. To install the app, press the install button.
 
 ## Visuals
 
+![](./assets/example.gif)
+
 ## Links
+
+https://pwa-text-editor3.herokuapp.com/
+
+https://github.com/strongjaw15/pwa-text-editor
 
 ## Credits
 
